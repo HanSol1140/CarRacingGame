@@ -15,7 +15,6 @@ public class Car {
         if((Math.random() * 10) >= 4){
             movePoint++;
         }
-        System.out.println(carName + " : " + movePoint);
     }
     public int getMovePoint(){
         return movePoint;
